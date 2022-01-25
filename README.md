@@ -1,2 +1,2 @@
 # ansible-simple
-ansible简易版
+ansible简易版，是我日常工作中经常使用到的批量执行命令和上传文件，参考了ansible工作模式，根据自己的情况定制了一个ansible-simple
