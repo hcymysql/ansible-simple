@@ -206,7 +206,6 @@ if __name__ == "__main__":
     pbar.set_description('任务执行总进度')
     update = lambda x: pbar.update()
 
-    #if False:
     if args.cmd and args.msftp:
         print('\n')
         print('\x1b[1;31m只能输入一个参数-c或者-p\x1b[0m','\n')
