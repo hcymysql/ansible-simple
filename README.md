@@ -20,11 +20,11 @@ optional arguments:
   -p  , --mput    sftp上传目录文件 [本地路径] [远程路径]
   
   
-1）host.txt文件格式如下：
+# 1）host.txt文件格式如下：
 
 ip:ssh端口,用户名,密码（端口不能省，必须加上）
 
-# cat host.txt
+cat host.txt
 
 192.168.137.131:22,hechunyang,159753
 
@@ -32,14 +32,14 @@ ip:ssh端口,用户名,密码（端口不能省，必须加上）
 
 192.168.137.131-150:22,hechunyang,159753
 
-2）支持上传文件和目录
+# 2）支持上传文件和目录
 
-# python3 ansible-simply.py host.txt -p '/root/soft' '/tmp/soft/'
+python3 ansible-simply.py host.txt -p '/root/soft' '/tmp/soft/'
 
 将本地/root/soft文件夹上传至远程主机/tmp/soft/目录下
 
-3）执行远程主机Linux命令
+# 3) 执行远程主机Linux命令
 
-# python3 ansible-simply.py host.txt -c 'df -hT;date'
+python3 ansible-simply.py host.txt -c 'df -hT;date'
 
 
