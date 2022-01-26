@@ -57,3 +57,5 @@ shell> python3 ansible-simply.py host.txt -p '/root/soft' '/tmp/soft/'
 
 shell> python3 ansible-simply.py host.txt -c 'df -hT;date'
 
+![image](https://raw.githubusercontent.com/hcymysql/ansible-simple/main/%E6%89%A7%E8%A1%8C%E5%91%BD%E4%BB%A4.png)
+![image](https://raw.githubusercontent.com/hcymysql/ansible-simple/main/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95.png)
