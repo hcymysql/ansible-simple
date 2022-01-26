@@ -20,7 +20,7 @@ shell> pip3 install logging
 # python3 ansible-simply.py --help
 usage: ansible-simply.py [-h] [-c] [-p ] inventory
 
-ansible-simple简易版（默认按照CPU核心并行执行）
+ansible-simple简易版（默认按照CPU核数并发执行）
 
 positional arguments:
 
