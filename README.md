@@ -13,8 +13,10 @@ shell> pip3 install tqdm
 
 shell> pip3 install logging
 
+-------------------------------------------------------
 
 使用介绍：
+
 # python3 ansible-simply.py --help
 usage: ansible-simply.py [-h] [-c] [-p ] inventory
 
