@@ -21,17 +21,25 @@ optional arguments:
   
   
 1）host.txt文件格式如下：
+
 ip:ssh端口,用户名,密码（端口不能省，必须加上）
+
 # cat host.txt
+
 192.168.137.131:22,hechunyang,159753
+
 如果想设置连续多个ip机器列表，加一个横杠，如下：
+
 192.168.137.131-150:22,hechunyang,159753
 
 2）支持上传文件和目录
+
 # python3 ansible-simply.py host.txt -p '/root/soft' '/tmp/soft/'
+
 将本地/root/soft文件夹上传至远程主机/tmp/soft/目录下
 
 3）执行远程主机Linux命令
+
 # python3 ansible-simply.py host.txt -c 'df -hT;date'
 
 
