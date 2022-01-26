@@ -5,7 +5,7 @@ ansible简易版，是我日常工作中经常使用到的批量执行命令和�
 # python3 ansible-simply.py --help
 usage: ansible-simply.py [-h] [-c] [-p ] inventory
 
-ansible-simple简易版
+ansible-simple简易版（默认按照CPU核心并行执行）
 
 positional arguments:
 
@@ -41,5 +41,4 @@ python3 ansible-simply.py host.txt -p '/root/soft' '/tmp/soft/'
 # 3) 执行远程主机Linux命令
 
 python3 ansible-simply.py host.txt -c 'df -hT;date'
-
 
