@@ -85,9 +85,9 @@ class TaskManager:
         https://codingdict.com/questions/169384
         '''
         sudo = '/bin/sudo -S /bin/bash -c  '
-        # print(local_ip + ';' + sudo + '\''  + remote_cmd + tqdm_para + '\'')
-        stdin, stdout, stderr = ssh.exec_command(local_ip + ';' + sudo + '\'' + remote_cmd + tqdm_para + '\'' ,get_pty=True)
+        #stdin, stdout, stderr = ssh.exec_command(local_ip + ';' + sudo + '\'' + remote_cmd + tqdm_para + '\'' ,get_pty=True)
         # ,get_pty=True)
+        stdin, stdout, stderr = ssh.exec_command(local_ip + ';' + sudo + '\'' + remote_cmd + '\'')
         stdin.write(ssh_passwd + '\n')  # 自动输入密码
         stdin.flush()
         ### 获取命令返回值 ###################
