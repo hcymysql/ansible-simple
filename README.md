@@ -2,11 +2,17 @@
 ansible简易版，是我日常工作中经常使用到的批量执行命令和上传文件，参考了ansible工作模式，根据自己的情况定制了一个ansible-simple
 
 # 依赖的第三方模块库
+
 shell> pip3 install multiprocessing
+
 shell> pip3 install paramiko
+
 shell> pip3 install argparse
+
 shell> pip3 install tqdm
+
 shell> pip3 install logging
+
 
 使用介绍：
 # python3 ansible-simply.py --help
