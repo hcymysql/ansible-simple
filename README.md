@@ -11,8 +11,6 @@ shell> pip3 install argparse
 
 shell> pip3 install tqdm
 
-shell> pip3 install logging
-
 -------------------------------------------------------
 
 使用介绍：
