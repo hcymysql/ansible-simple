@@ -159,7 +159,7 @@ class TaskManager:
                 pass
             path = remote_file
             # 创建多级目录
-            sudo = '/bin/sudo -S /bin/bash -c  '
+            sudo = '/usr/bin/sudo -S /bin/bash -c  '
             stdin, stdout, stderr = ssh.exec_command(sudo + '\'' + 'mkdir -p ' + path + ';'
                                                      + 'chown -R ' + ssh_user + '.' + ssh_user + ' ' + path + '\'')
             stdin.write(ssh_passwd + '\n')  # 自动输入密码
