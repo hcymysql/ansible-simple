@@ -84,7 +84,7 @@ class TaskManager:
         https://stackoverflow.com/questions/6270677/how-to-run-sudo-with-paramiko-python
         https://codingdict.com/questions/169384
         '''
-        sudo = '/bin/sudo -S /bin/bash -c  '
+        sudo = '/usr/bin/sudo -S /bin/bash -c  '
         #stdin, stdout, stderr = ssh.exec_command(local_ip + ';' + sudo + '\'' + remote_cmd + tqdm_para + '\'' ,get_pty=True)
         # ,get_pty=True)
         stdin, stdout, stderr = ssh.exec_command(local_ip + ';' + sudo + '\'' + remote_cmd + '\'')
