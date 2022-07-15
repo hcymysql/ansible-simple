@@ -97,7 +97,7 @@ class TaskManager:
         if status == 0:
             print(stdout.read().decode('utf-8'))
         else:
-            print('\x1b[1;31m执行命令: {0} 失败 \x1b[0m'.format(remote_cmd))
+            print('\x1b[1;31m执行命令: {0} 失败 - {1}\x1b[0m'.format(remote_cmd, ip))
             print(stderr.read().decode('utf-8'))
         # 关闭连接
         ssh.close()
