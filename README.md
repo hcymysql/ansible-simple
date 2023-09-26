@@ -3,13 +3,13 @@ ansible简易版，是我日常工作中经常使用到的批量执行命令和�
 
 # 依赖的第三方模块库
 
-shell> pip3 install multiprocessing
+shell> pip3 install multiprocessing  -i "http://mirrors.aliyun.com/pypi/simple" --trusted-host "mirrors.aliyun.com"
 
-shell> pip3 install paramiko
+shell> pip3 install paramiko  -i "http://mirrors.aliyun.com/pypi/simple" --trusted-host "mirrors.aliyun.com"
 
-shell> pip3 install argparse
+shell> pip3 install argparse  -i "http://mirrors.aliyun.com/pypi/simple" --trusted-host "mirrors.aliyun.com"
 
-shell> pip3 install tqdm
+shell> pip3 install tqdm  -i "http://mirrors.aliyun.com/pypi/simple" --trusted-host "mirrors.aliyun.com"
 
 -------------------------------------------------------
 
