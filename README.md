@@ -59,6 +59,7 @@ shell> ./ansible-simple host.txt -c 'df -hT;date'
 ![image](https://raw.githubusercontent.com/hcymysql/ansible-simple/main/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95.png)
 
 #### 批量创建用户修改密码
+```
 shell> ./ansible-simple host.txt -c 'useradd hechunyang;echo "123456" | passwd --stdin hechunyang;echo "hechunyang    ALL=(ALL)NOPASSWD: ALL" >> /etc/sudoers'
-
+```
 #### 注：工具适用于Centos7 系统。
