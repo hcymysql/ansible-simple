@@ -16,7 +16,7 @@ shell> pip3 install tqdm  -i "http://mirrors.aliyun.com/pypi/simple" --trusted-h
 # chmod 755 ansible-simple
 # ./ansible-simple --help
 ```
-usage: ansible-simply.py [-h] [-c] [-p ] inventory
+usage: ansible-simple [-h] [-c] [-p ] inventory
 
 ansible-simple简易版（默认按照CPU核数并发执行）
 
