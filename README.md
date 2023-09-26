@@ -59,3 +59,4 @@ shell> python3 ansible-simply.py host.txt -c 'df -hT;date'
 #### 批量创建用户修改密码
 shell> ./ansible-simply host.txt -c 'useradd hechunyang;echo "123456" | passwd --stdin hechunyang;echo "hechunyang    ALL=(ALL)NOPASSWD: ALL" >> /etc/sudoers'
 
+#### 注：工具适用于Centos7 系统。
